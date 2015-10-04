@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+#memberList img {
+      max-width: 100%; 
+      margin: 0;
+      padding: 0;
+    }
+#memberList li {
+width: 100px;
+display: inline-block; 
+margin: 10px;
+padding: 10px;
+}
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
+<script src="jquery-csv.js"></script>
+<script>
+$(document).ready(function(){
+        $.ajax({type: "GET",url: "data.txt", success: function(result){
+        	arrangeList(result);
+        }});
+        
+});
+
+function UrlExists(url)
+{
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false);
+    http.send();
+    return http.status!=404;
+}
+
+function arrangeList(result){
+	list = $.csv.toArrays(result);
+	var memberList = document.getElementById("memberList");
+	for(i = 1;i<list.length;i++){
+		var department = document.getElementById(list[i][4]);
+		
+		//Creating department title and list if not exist.
+		if(department == null)
+		{
+		var dpmTitle = document.createElement("h2"); 
+		dpmTitle.appendChild(document.createTextNode(list[i][4]));
+		memberList.appendChild(dpmTitle);
+		var department = document.createElement("ul");
+		department.id = list[i][4];
+		memberList.appendChild(department);
+		}
+		
+		//Create list item and append it to correspongding department list.
+		var link = document.createElement("a");
+		link.href = "photo/LJS_"+list[i][3]+".jpg";
+		var listitem = document.createElement("li");
+		var memberImg = document.createElement("img");
+		var p = document.createElement("p");
+		
+		//check image exist
+		var img_url = "thumbnail/thumb_LJS_"+list[i][3]+".jpg";
+		memberImg.src = img_url;
+		if(!UrlExists(img_url)){
+			memberImg.src ="photo/blank.jpg";
+		}		
+		memberImg.alt = list[i][1];
+		var memberName = document.createTextNode(list[i][1]);
+		p.appendChild(memberName);
+		link.appendChild(memberImg);
+		listitem.appendChild(link);
+		listitem.appendChild(p);
+		department.appendChild(listitem);
+		
+	}
+        
+}
+
+
+</script>
+</head>
+<body>
+
+
+<div id="memberList">
+
+
+</div>
+
+</body>
+</html>
