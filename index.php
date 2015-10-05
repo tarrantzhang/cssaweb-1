@@ -9,22 +9,29 @@
     <meta name="author" content="Jett Wang">
     <meta name="copyright" content="CSSA Copyright (c) 2015">
     <link rel="stylesheet" href="./assets/style.css">
-    <script src="./assets/modernizr.js"></script>
-    <link href="./assets/lightbox.css" rel="stylesheet">
-    <link href="./assets/lang.js" type="text/javascript">
-    <link href="./assets/headfoot.js" type="text/javascript">
+    <link href="./assets/colorbox.css" rel="stylesheet">
     <style type="text/css"></style>
     <meta class="foundation-data-attribute-namespace">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
-    <link rel="shortcut icon" href="./assets/icon.png">
+    <link rel="shortcut icon" href="./assets/image/shared/icon.png">
+    <script>
+        $(document).ready(function(){
+            $(".inline").colorbox({inline:true, width:"50%"});
+            $("#click").click(function(){ 
+                $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+                return false;
+            });
+        });
+    </script>
+
 </head>
 
 <body>
     <nav>
         <div class="row">
-            <img src="./assets/icon.png" id="logo_img">
+            <img src="./assets/image/shared/icon.png" id="logo_img">
             <div id='cssmenu'>
                 <ul>
                     <li class="active"><a href='#'><span id='tab_home'></span></a></li>
@@ -74,9 +81,9 @@
         <div class="row"  id="cssared">
             <div class="orbit-container">
                 <ul class="orbit" data-orbit>
-                    <li><img src="./orbit_1.jpg" alt="slide 1" /></li>
-                    <li><img src="./orbit_2.jpg" alt="slide 2" /></li>
-                    <li><img src="./orbit_3.jpg" alt="slide 3" /></li>
+                    <li><img src="./assets/image/home/orbit_1.jpg" alt="slide 1" /></li>
+                    <li><img src="./assets/image/home/orbit_2.jpg" alt="slide 2" /></li>
+                    <li><img src="./assets/image/home/orbit_3.jpg" alt="slide 3" /></li>
                 </ul>
             </div>
         </div>
@@ -93,21 +100,21 @@
 
         <div class="row contained" id="round" style="background:transparent">
             <div class="parleft">
-                <img src="./tempround.png"></img>
+                <img src="./assets/image/home/tempround.png"></img>
                 <div class="textbox"><p>丰富的社团和活动 给你更多元化的大学生活 无限的挑战和机会 让你跳出框架重新定义自我 在香槟的留学旅途 有cssa的温暖相伴 我们不孤独</p></div>
             </div>
             <div class="parmid">
-                <img src="./tempround.png"></img>
+                <img src="./assets/image/home/tempround.png"></img>
                 <div class="textbox"><p>丰富的社团和活动 给你更多元化的大学生活 无限的挑战和机会 让你跳出框架重新定义自我 在香槟的留学旅途 有cssa的温暖相伴 我们不孤独</p></div>
             </div>
             <div class="parright">
-                <img src="./tempround.png"></img>
+                <img src="./assets/image/home/tempround.png"></img>
                 <div class="textbox"><p>丰富的社团和活动 给你更多元化的大学生活 无限的挑战和机会 让你跳出框架重新定义自我 在香槟的留学旅途 有cssa的温暖相伴 我们不孤独</p></div>
             </div>
         </div>
 
         <div class="row">
-            <div><img class="head" src="./home.jpg"></img></div>
+            <div><img class="head" src="./assets/image/banner/home.jpg"></img></div>
         </div>
 
         <div class="row foot">
@@ -124,50 +131,56 @@
                             <a class="control_next">></a>
                             <a class="control_prev"><</a>
                             <ul>
-                                <li><img src="./tempad.jpg"></img></li>
-                                <li><img src="./tempad.jpg"></img></li>
-                                <li><img src="./tempad.jpg"></img></li>
+                                <li><img src="./assets/image/shared/ad/tempad.jpg"></img></li>
+                                <li><img src="./assets/image/shared/ad/tempad.jpg"></img></li>
+                                <li><img src="./assets/image/shared/ad/tempad.jpg"></img></li>
                             </ul>
                         </div>
                     </div>
                     <div class="parright block_red">
                         <h4>CONNECT</h4>
                         <hr>
-                        <li><a href="./assets/icon.png" data-lightbox="wechat"><span>wechat</span></a></li>
+                        <li><a href="./assets/image/shared/wechat.png" data-lightbox="wechat"><span>wechat</span></a></li>
                         <div style="display:inline-block;width:100%;margin:auto">
-                            <li><a href="http://weibo.com/u/3172392617"><img src="./social.jpg"></img><span>weibo</span></a></li>
-                            <li><a href="http://org.renren.com/600469908"><img src="./social.jpg"></img><span>renren</a></span></li>
-                            <li><a href="https://www.youtube.com/user/2011uiuccssamoongala"><img src="./social.jpg"></img><span>YouTube</span></a></li>
-                            <li><a href="https://www.facebook.com/cssa.uiuc/"><img src="./social.jpg"></img><span>Facebook</span></a></li>
+                            <li><a href="http://weibo.com/u/3172392617"><img src="./assets/image/shared/social.jpg"></img><span>weibo</span></a></li>
+                            <li><a href="http://org.renren.com/600469908"><img src="./assets/image/shared/social.jpg"></img><span>renren</a></span></li>
+                            <li><a href="https://www.youtube.com/user/2011uiuccssamoongala"><img src="./assets/image/shared/social.jpg"></img><span>YouTube</span></a></li>
+                            <li><a href="https://www.facebook.com/cssa.uiuc/"><img src="./assets/image/shared/social.jpg"></img><span>Facebook</span></a></li>
 
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="contained" style="color:#ccc;text-align:center;font-size:14px;margin:auto"><hr>Designed by Jett Wang | Copyright © CSSA UIUC 2015 </div>
+            <div class="contained" style="color:#ccc;text-align:center;font-size:14px;margin:auto"><hr>Designed by <a class='inline' href="#inline_content">Jett Wang</a> | Copyright © CSSA UIUC 2015 </div>
+            <div style='display:none'>
+                <div id='inline_content' style='padding:10px; background:#fff;'>
+                </div>
+            </div>
         </div>
 
-        <script>
-        document.write('<script src=js/vendor/' +
-        ('__proto__' in {} ? 'zepto' : 'jquery') +
-        '.js><\/script>')
-        </script><script src="./assets/zepto.js"></script>
-        <script src="./assets/jquery.js"></script>
-        <script src="./assets/foundation.min.js"></script>
-        <script>
-        $(document).foundation();
-        </script>
-        <script src="./assets/jquery(1).js"></script>
-        <script src="./assets/foundation.js"></script>
-        <script>
-        $(document).foundation();
 
-        var doc = document.documentElement;
-        doc.setAttribute('data-useragent', navigator.userAgent);
-        </script>
 
-        <script src="./assets/lang.js"></script>
-        <script src="./assets/headfoot.js"></script>
-        <script src="./assets/lightbox.js"></script>
-    </body>
-    </html>
+
+        <script>
+            document.write('<script src=js/vendor/' +
+                ('__proto__' in {} ? 'zepto' : 'jquery') +
+                '.js><\/script>')
+            </script><script src="./assets/zepto.js"></script>
+            <script src="./assets/jquery.js"></script>
+            <script src="./assets/foundation.min.js"></script>
+            <script>
+                $(document).foundation();
+            </script>
+            <script src="./assets/jquery(1).js"></script>
+            <script src="./assets/foundation.js"></script>
+            <script>
+                $(document).foundation();
+
+                var doc = document.documentElement;
+                doc.setAttribute('data-useragent', navigator.userAgent);
+            </script>
+
+            <script src="./assets/lang.js"></script>
+            <script src="./assets/jquery.colorbox.js"></script>
+        </body>
+        </html>

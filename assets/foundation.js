@@ -1,3 +1,52 @@
+//ad orbit
+jQuery(document).ready(function(){
+    setInterval(function () {
+        moveRight();
+    }, 3000);
+  });
+  
+	var slideCount = $('#slider ul li').length;
+	var slideWidth = $('#slider ul li').width();
+	var slideHeight = $('#slider ul li').height();
+	var sliderUlWidth = slideCount * slideWidth;
+	console.log(slideHeight);
+	
+	//$('#slider').css({ "max-width": slideWidth, "max-height": slideHeight });
+	
+	//$('#slider ul').css({ "max-width": sliderUlWidth,"max-height": slideHeight });
+	
+    $('#slider ul li:last-child').prependTo('#slider ul');
+
+    function moveLeft() {
+        $('#slider ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider ul li:last-child').prependTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider ul li:first-child').appendTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+
+
+
+//foundation
 (function($,window,document,undefined){'use strict';var header_helpers=function(class_array){var i=class_array.length;var head=$('head');while(i--){if(head.has('.'+ class_array[i]).length===0){head.append('<meta class="'+ class_array[i]+'" />');}}};header_helpers(['foundation-mq-small','foundation-mq-small-only','foundation-mq-medium','foundation-mq-medium-only','foundation-mq-large','foundation-mq-large-only','foundation-mq-xlarge','foundation-mq-xlarge-only','foundation-mq-xxlarge','foundation-data-attribute-namespace']);$(function(){if(typeof FastClick!=='undefined'){if(typeof document.body!=='undefined'){FastClick.attach(document.body);}}});var S=function(selector,context){if(typeof selector==='string'){if(context){var cont;if(context.jquery){cont=context[0];if(!cont)return context;}else{cont=context;}
 return $(cont.querySelectorAll(selector));}
 return $(document.querySelectorAll(selector));}
