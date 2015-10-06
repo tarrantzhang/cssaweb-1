@@ -12,10 +12,10 @@
     <link href="./assets/colorbox.css" rel="stylesheet">
     <style type="text/css"></style>
     <meta class="foundation-data-attribute-namespace">
-
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <link rel="shortcut icon" href="./assets/image/shared/icon.png">
+
     <script>
         $(document).ready(function(){
             $(".inline").colorbox({inline:true, width:"50%"});
@@ -25,10 +25,8 @@
             });
         });
     </script>
+    <?php include "./header.php"; ?>
 
-</head>
-
-<body>
     <nav>
         <div class="row">
             <img src="./assets/image/shared/icon.png" id="logo_img">
@@ -37,9 +35,10 @@
                     <li class="active"><a href='#'><span id='tab_home'></span></a></li>
                     <li><a href='#'><span id='tab_events'></span></a>
                     </li>
-                    <li class='has-sub'><a href='#'><span id='tab_memb'></span></a>
+                    <li class='has-sub'><a><span id='tab_memb'></span></a>
                         <ul>
-                            <li class='has-sub' ><a href='#'><span id='tab_div'></span></a>
+                            <li><a href='#'><span id='tab_board'></span></a></li>
+                            <li class='has-sub' ><a><span id='tab_div'></span></a>
                                 <ul>
                                     <li><a href='#'><span id='tab_sa'></span></a></li>
                                     <li><a href='#'><span id='tab_undergrad'></span></a></li>
@@ -53,9 +52,8 @@
                                     <li><a href='#'><span id='tab_hr'></span></a></li>
                                 </ul>
                             </li>
-                            <li class='has-sub'><a href='#'><span id='tab_sub'></span></a>
+                            <li class='has-sub'><a><span id='tab_sub'></span></a>
                                 <ul>
-                                    <li><a href='#'><span id='tab_jour'></span></a></li>
                                     <li><a href='#'><span id='tab_pho'></span></a></li>
                                     <li><a href='#'><span id='tab_jf'></span></a></li>
                                     <li><a href='#'><span id='tab_pp'></span></a></li>
@@ -67,7 +65,6 @@
                         </li>
                         <li class='has-sub'><a href='./about/index.html'><span id='tab_ab'></span></a>
                             <ul>
-                                <li><a href='#'><span id='tab_board'></span></a></li>
                                 <li><a href='about/vision.html'><span id='tab_vision'></span></a></li>
                                 <li><a href='#'><span id='tab_cont'></span></a></li>
                             </ul>
@@ -77,7 +74,10 @@
                 </div>
             </div>
         </nav>
+</head>
 
+<body>
+    
         <div class="row"  id="cssared">
             <div class="orbit-container">
                 <ul class="orbit" data-orbit>
@@ -117,6 +117,12 @@
             <div><img class="head" src="./assets/image/banner/home.jpg"></img></div>
         </div>
 
+
+
+
+         <?php include "./assets/footer.php"; ?>
+
+
         <div class="row foot">
             <div class="contained" style="margin-bottom:0">
                 <div class="contained" style="margin:auto">
@@ -140,12 +146,13 @@
                     <div class="parright block_red">
                         <h4>CONNECT</h4>
                         <hr>
-                        <li><a href="./assets/image/shared/wechat.png" data-lightbox="wechat"><span>wechat</span></a></li>
+                        <img src="./assets/image/shared/qr.jpg"></img>
+                        <li><a><span>wechat</span></a></li>
                         <div style="display:inline-block;width:100%;margin:auto">
-                            <li><a href="http://weibo.com/u/3172392617"><img src="./assets/image/shared/social.jpg"></img><span>weibo</span></a></li>
-                            <li><a href="http://org.renren.com/600469908"><img src="./assets/image/shared/social.jpg"></img><span>renren</a></span></li>
-                            <li><a href="https://www.youtube.com/user/2011uiuccssamoongala"><img src="./assets/image/shared/social.jpg"></img><span>YouTube</span></a></li>
-                            <li><a href="https://www.facebook.com/cssa.uiuc/"><img src="./assets/image/shared/social.jpg"></img><span>Facebook</span></a></li>
+                            <li><a href="http://weibo.com/u/3172392617"><img src="./assets/image/shared/social.png"></img><span>weibo</span></a></li>
+                            <li><a href="http://org.renren.com/600469908"><img src="./assets/image/shared/social.png"></img><span>renren</a></span></li>
+                            <li><a href="https://www.youtube.com/user/2011uiuccssamoongala"><img src="./assets/image/shared/social.png"></img><span>YouTube</span></a></li>
+                            <li><a href="https://www.facebook.com/cssa.uiuc/"><img src="./assets/image/shared/social.png"></img><span>Facebook</span></a></li>
 
                         </div>
                     </div>

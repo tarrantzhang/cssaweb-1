@@ -1258,10 +1258,10 @@ ul.pagination {
     background: #FFFFFF !important; } }
 .side-nav {
   display: inline;
-  margin-left: 1%;
+  margin-left: 3%;
   list-style: none;
   list-style-position: outside;
-  width: 19%;
+  width: 17%;
   float: left;
   font-family: "Oxygen Mono", Helvetica, Roboto, Arial, sans-serif; }
   .side-nav li {
@@ -3031,7 +3031,7 @@ th.hide-for-touch {
     background-color: #CC3300;
     font-size: 1rem;
 }
-.foot h1,h2,h3,h4,h5{
+.foot h1,.foot h2,.foot h3,.foot h4,.foot h5{
     color: #ebebeb;
     font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
 }
@@ -3055,8 +3055,30 @@ th.hide-for-touch {
 
 .block_red span{ display: none; }
 
+.section {
+  width: 80%;
+  font-family: "Noto Sans", "Noto Sans CJK SC Light", "Microsoft YaHei", sans-serif;
+}
+
+.section h2{
+    color: #CC3300;
+    text-align: right;
+}
+
+.section h3{
+  color: #cc3300;
+  text-align: center;
+  font-weight: bold;
+}
+
+.section h5{
+  text-align: left;
+  color: #cc3300;
+  margin: 0;
+  font-weight: bold;
+}
+
 .post{
-    width: 80%;
     text-align: justify;
     font-family: "Noto Sans", "Noto Sans CJK SC Light", "Microsoft YaHei", sans-serif;
     font-size: 3rem;
@@ -3064,9 +3086,40 @@ th.hide-for-touch {
     margin-bottom: 6rem;
 }
 
-.post h2{
-    color: #CC3300;
-    text-align: right;
+.person{
+  padding: 8vh 0 8vh 0;
+}
+
+.person:hover{
+  background-color: #ebebeb;
+}
+
+.person img{
+  display: block;
+  margin: auto;
+  max-width: 35vh;
+  width: 90%;
+}
+
+.person div{
+  display: inline-block;
+  margin: auto;
+  height: 100%;
+  width: 55%;
+  font-family: "Noto Sans", "Noto Sans CJK SC Light", "Microsoft YaHei", sans-serif;
+  font-size: 1rem;
+  text-indent: 2rem;
+  text-align: justify;
+}
+
+#inv {
+  float: left;
+  display: block;
+  width: 10rem;
+  background-color: #cc3300;
+  color: #fff;
+  text-align: right;
+  padding-right: 1%;
 }
 
 .textbox{
@@ -3079,7 +3132,7 @@ th.hide-for-touch {
     padding: 10%
 }
 
-
+#CNtext{ font-family: "Noto Sans", "Noto Sans CJK SC Light", "Microsoft YaHei", sans-serif; }
 #deco{
     height: 5rem;
 }
