@@ -5,45 +5,6 @@
 
 <div class="left section" style="background-color:#fff">
 
-	<h3 class="block_red">NOVEMBER</h3>
-	<div class="row person">
-		<div style="width:40%;float:left;"><img src="../assets/image/star-members/2014/star_lxy.png"></img></div>
-		<div>
-			<h5 id='inv'>TREASURE</h5><h5>李幸怡</h5>
-			<p>李幸怡自大二加入财务部以来，一直负责CSSA各种活动的经费申请， 例如：华人篮球赛 、万圣节派对、春节喜乐会、非诚勿扰…各部门成功举办的众多活动背后，都有她的一份尽心付出。作为财务部副部长，她以身作则；作为部门中的前辈，她很注意提携新人。财务部部员评价：“她分配任务合理，从不忘给新人做示范；工作时她总是率先完成自己的任务，之后去帮助其他部员。” 在采访中，李幸怡谦虚道：“我没有专门负责的活动，到处打酱油，也相当于润滑剂，哪里需要我就去哪里的。”</p>
-		</div>
-	</div>
-	<div class="row person">
-		<div style="width:40%;float:left;magin:0;"><img src="../assets/image/star-members/2014/star_pb.png"></img></div>
-		<div>
-			<h5 id='inv'>GRAD</h5><h5>王天瑜</h5>
-			<p>王天瑜在2014年秋季加入CSSA了， 她直言自己是个强迫症、笑点低、爱吐槽的爽快姑娘，但是做起事来却沉稳慎密。在加入了研究生部以后，她先后负责了研究生舞会的门票设计，报名链接设计以及检票工作；国际学生招聘会、模拟面试的场控工作；以及品评香槟活动的统筹安排工作。 “天瑜做事一直很靠谱，绝对是我们部门的中坚力量！”研究生副部长吴语如是评价。尽管研究生部活动常常是堆叠繁忙，她却总是能够在第一时间贡献出自己的力量。</p>
-		</div>
-	</div>
-
-	<h3 class="block_red">OCTOBER</h3>
-	<div class="row person">
-		<div style="width:40%;float:left;"><img src="../assets/image/star-members/2014/star_ly.png"></img></div>
-		<div>
-			<h5 id='inv'>HR</h5><h5>李幸怡</h5>
-			<p>雷洋大一入学即成为了CSSA人力资源部的一员大将。 通过前一学年的社内纳新工作的学习与积累， 在大二这年，他积极协助承办了2015学年度的招新和破冰活动，并且胜任了人力资源部的面试官一职。此次招新期间，他还兼顾着回复了上百封申请邮件的重任。由他起草的招新活动记录表有效地完成了数据收集和反馈的任务。这也为今后的社团记录项目提供了模板。 平日里，他确保每次会议准时到达，并且主动发言提议。本次明日之星优胜者的奖品也是他利用暑假的个人时间协助了定制工作。</p>
-		</div>
-	</div>
-	<div class="row person">
-		<div style="width:40%;float:left;magin:0;"><img src="../assets/image/star-members/2014/star_hl.png"></img></div>
-		<div>
-			<h5 id='inv'>PHTOGRA</h5><h5>黄椂</h5>
-			<p>黄椂在大一新生时期便加入香槟影楼，短短一年时间就胜任了副部长一职。思维活跃且执行力强的她在影楼承办的各项活动中尽全力为影楼的成长发现机会。本学期，她协助策划了影楼的所有活动，包括香槟好声音宣传照的设计和拍摄以及活动场地的联系和安排，高效地完成了重任。作为影展和摄影比赛的负责人，她统筹了活动的前期规划，并且亲自监督进展。通过她有条不紊的工作分配，积极地与学校各个组织沟通，香槟影楼因而获得了其他学校官方组织的支持和认可。</p>
-		</div>
-	</div>
-	<div class="row person">
-		<div style="width:40%;float:left;magin:0;"><img src="../assets/image/star-members/2014/star_py.png"></img></div>
-		<div>
-			<h5 id='inv'>UNDERGRAD</h5><h5>潘悦</h5>
-			<p>潘悦去年加入了CSSA本科生部和光子映画微电影社。作为一个非常活跃的成员，他参与组织了多个CSSA举办的活动，如美食节的宣传，中秋晚会和春节喜乐会的后台道具、现场布置，非诚勿扰的导演组和道具制作 。当被问到觉得自己为什么会当选明日之星的时候，他说“我觉得我的小伙伴们都非常靠谱，也非常支持我。并且，在每一次的活动中，我都会尝试做的多一些，承担更多的责任。但我觉得其实很多小伙伴都应该是明日之星，而我可能更幸运一些。”他认为虽然明日之星这个个人荣誉非常具有吸引力，但也希望能够保持CSSA团队合作的优良传统。</p>
-		</div>
-	</div>
-
 	<h3 class="block_red">SEPTEMBER</h3>
 	<div class="row person">
 		<div style="width:40%;float:left;"><img src="../assets/image/star-members/2014/star_ywy.png"></img></div>
@@ -68,11 +29,4 @@
 	</div>
 
 
-</div>
-
-<div class="side-nav">
-	<img id="deco" src="../assets/image/shared/icon.png"></img>
-	<li class="divider"></li>
-	<li class="active"><a href="star-members.php?page=2015">2015</a></li>
-	<li><a href="star-members.php?page=2014">2014</a></li>
 </div>

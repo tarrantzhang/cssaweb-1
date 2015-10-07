@@ -51,9 +51,15 @@
             }
             ?>
         </div>
+
+        <div class="side-nav">
+            <img id="deco" src="../assets/image/shared/icon.png"></img>
+            <li class="divider"></li>
+            <li class="<?php if($page_id == '2015'){ echo "active "; } ?>"><a href="star-members.php?page=2015">2015</a></li>
+            <li class="<?php if($page_id == '2014'){ echo "active "; } ?>"><a href="star-members.php?page=2014">2014</a></li>
+        </div>
+
     </div>
-
-
 
 
 

@@ -37,7 +37,7 @@
 		</div>
 	</div>
 	<div class="row person">
-		<div style="width:40%;float:left;magin:0;"><img src="../assets/image/star-members/2014/star_pb.png"></img></div>
+		<div style="width:40%;float:left;magin:0;"><img src="../assets/image/star-members/2014/star_wty.png"></img></div>
 		<div>
 			<h5 id='inv'>GRAD</h5><h5>王天瑜</h5>
 			<p>王天瑜在2014年秋季加入CSSA了， 她直言自己是个强迫症、笑点低、爱吐槽的爽快姑娘，但是做起事来却沉稳慎密。在加入了研究生部以后，她先后负责了研究生舞会的门票设计，报名链接设计以及检票工作；国际学生招聘会、模拟面试的场控工作；以及品评香槟活动的统筹安排工作。 “天瑜做事一直很靠谱，绝对是我们部门的中坚力量！”研究生副部长吴语如是评价。尽管研究生部活动常常是堆叠繁忙，她却总是能够在第一时间贡献出自己的力量。</p>
@@ -48,7 +48,7 @@
 	<div class="row person">
 		<div style="width:40%;float:left;"><img src="../assets/image/star-members/2014/star_ly.png"></img></div>
 		<div>
-			<h5 id='inv'>HR</h5><h5>李幸怡</h5>
+			<h5 id='inv'>HR</h5><h5>雷洋</h5>
 			<p>雷洋大一入学即成为了CSSA人力资源部的一员大将。 通过前一学年的社内纳新工作的学习与积累， 在大二这年，他积极协助承办了2015学年度的招新和破冰活动，并且胜任了人力资源部的面试官一职。此次招新期间，他还兼顾着回复了上百封申请邮件的重任。由他起草的招新活动记录表有效地完成了数据收集和反馈的任务。这也为今后的社团记录项目提供了模板。 平日里，他确保每次会议准时到达，并且主动发言提议。本次明日之星优胜者的奖品也是他利用暑假的个人时间协助了定制工作。</p>
 		</div>
 	</div>
@@ -91,11 +91,4 @@
 	</div>
 
 
-</div>
-
-<div class="side-nav">
-	<img id="deco" src="../assets/image/shared/icon.png"></img>
-	<li class="divider"></li>
-	<li><a href="star-members.php?page=2015">2015</a></li>
-	<li class="active"><a href="star-members.php?page=2014">2014</a></li>
 </div>

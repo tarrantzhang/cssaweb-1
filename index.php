@@ -32,44 +32,44 @@
             <img src="./assets/image/shared/icon.png" id="logo_img">
             <div id='cssmenu'>
                 <ul>
-                    <li class="active"><a href='#'><span id='tab_home'></span></a></li>
-                    <li><a href='#'><span id='tab_events'></span></a>
+                    <li class="active"><a href='#'><span id='tab_home'></a></li>
+                    <li><a href='#'><span id='tab_events'></a>
                     </li>
-                    <li class='has-sub'><a><span id='tab_memb'></span></a>
+                    <li class='has-sub'><a><span id='tab_memb'></a>
                         <ul>
-                            <li><a href='#'><span id='tab_board'></span></a></li>
-                            <li class='has-sub' ><a><span id='tab_div'></span></a>
+                            <li><a href='#'><span id='tab_board'></a></li>
+                            <li class='has-sub' ><a><span id='tab_div'></a>
                                 <ul>
-                                    <li><a href='#'><span id='tab_sa'></span></a></li>
-                                    <li><a href='#'><span id='tab_undergrad'></span></a></li>
-                                    <li><a href='#'><span id='tab_grad'></span></a></li>
-                                    <li><a href='#'><span id='tab_sr'></span></a></li>
-                                    <li><a href='#'><span id='tab_cs'></span></a></li>
-                                    <li><a href='#'><span id='tab_pr'></span></a></li>
-                                    <li><a href='#'><span id='tab_publi'></span></a></li>
-                                    <li><a href='#'><span id='tab_tre'></span></a></li>
-                                    <li><a href='#'><span id='tab_it'></span></a></li>
-                                    <li><a href='#'><span id='tab_hr'></span></a></li>
+                                    <li><a href='#'><span id='tab_sa'></a></li>
+                                    <li><a href='#'><span id='tab_undergrad'></a></li>
+                                    <li><a href='#'><span id='tab_grad'></a></li>
+                                    <li><a href='#'><span id='tab_sr'></a></li>
+                                    <li><a href='#'><span id='tab_cs'></a></li>
+                                    <li><a href='#'><span id='tab_pr'></a></li>
+                                    <li><a href='#'><span id='tab_publi'></a></li>
+                                    <li><a href='#'><span id='tab_tre'></a></li>
+                                    <li><a href='#'><span id='tab_it'></a></li>
+                                    <li><a href='#'><span id='tab_hr'></a></li>
                                 </ul>
                             </li>
-                            <li class='has-sub'><a><span id='tab_sub'></span></a>
+                            <li class='has-sub'><a><span id='tab_sub'></a>
                                 <ul>
-                                    <li><a href='#'><span id='tab_pho'></span></a></li>
-                                    <li><a href='#'><span id='tab_jf'></span></a></li>
-                                    <li><a href='#'><span id='tab_pp'></span></a></li>
-                                    <li><a href='#'><span id='tab_dance'></span></a></li>
+                                    <li><a href='#'><span id='tab_pho'></a></li>
+                                    <li><a href='#'><span id='tab_pp'></a></li>
+                                    <li><a href='#'><span id='tab_jf'></a></li>
+                                    <li><a href='#'><span id='tab_dance'></a></li>
                                 </ul>
                             </li>
-                            <li><a href='#'><span id='tab_star'></span></a>
+                            <li><a href='#'><span id='tab_star'></a>
                             </ul>
                         </li>
-                        <li class='has-sub'><a href='./about/index.html'><span id='tab_ab'></span></a>
+                        <li class='has-sub'><a href='./about/index.html'><span id='tab_ab'></a>
                             <ul>
-                                <li><a href='about/vision.html'><span id='tab_vision'></span></a></li>
-                                <li><a href='#'><span id='tab_cont'></span></a></li>
+                                <li><a href='about/vision.html'><span id='tab_vision'></a></li>
+                                <li><a href='#'><span id='tab_cont'></a></li>
                             </ul>
                         </li>
-                        <li class='last'><a href='http://bbs.cssa.uiuc.edu/index.php'><span id='tab_bbs'></span></a></li>
+                        <li class='last'><a href='http://bbs.cssa.uiuc.edu/index.php'><span id='tab_bbs'></a></li>
                     </ul>
                 </div>
             </div>
@@ -127,11 +127,11 @@
             <div class="contained" style="margin-bottom:0">
                 <div class="contained" style="margin:auto">
                     <div class="parleft block_red">
-                        <h4>NEWSLETTER</h4>
+                        <h5>NEWSLETTER</h5>
                         <hr>
                     </div>
                     <div class="parmid block_red">
-                        <h4>SPONSORS</h4>
+                        <h5>SPONSORS</h5>
                         <hr>
                         <div id="slider">
                             <a class="control_next">></a>
@@ -144,29 +144,48 @@
                         </div>
                     </div>
                     <div class="parright block_red">
-                        <h4>CONNECT</h4>
+                        <h5>CONNECT</h5>
                         <hr>
-                        <img src="./assets/image/shared/qr.jpg"></img>
-                        <li><a><span>wechat</span></a></li>
-                        <div style="display:inline-block;width:100%;margin:auto">
-                            <li><a href="http://weibo.com/u/3172392617"><img src="./assets/image/shared/social.png"></img><span>weibo</span></a></li>
-                            <li><a href="http://org.renren.com/600469908"><img src="./assets/image/shared/social.png"></img><span>renren</a></span></li>
-                            <li><a href="https://www.youtube.com/user/2011uiuccssamoongala"><img src="./assets/image/shared/social.png"></img><span>YouTube</span></a></li>
-                            <li><a href="https://www.facebook.com/cssa.uiuc/"><img src="./assets/image/shared/social.png"></img><span>Facebook</span></a></li>
-
+                        <div class="contained" style="margin-top:0;margin-bottom:0">
+                            <div class="left" id="qr"><img src="./assets/image/shared/social/qr.jpg"></img></div>
+                            <div class="right" id="social">
+                                <table><tr>
+                                    <td><a href="http://weibo.com/u/3172392617">
+                                        <img src="./assets/image/shared/social/weibo.jpg"></img>
+                                        <span>weibo</span>
+                                    </a></td>
+                                    <td><a href="http://org.renren.com/600469908">
+                                        <img src="./assets/image/shared/social/renren.jpg"></img>
+                                        <span>renren</span>
+                                    </a></td><tr>
+                                    <td><a href="https://www.youtube.com/user/2011uiuccssamoongala">
+                                        <img src="./assets/image/shared/social/youtube.jpg"></img>
+                                        <span>YouTube</span>
+                                    </a></td>
+                                    <td><a href="https://www.facebook.com/cssa.uiuc/">
+                                        <img src="./assets/image/shared/social/facebook.jpg"></img>
+                                        <span>Facebook</span>
+                                    </a></td></tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="contained" style="color:#ccc;text-align:center;font-size:14px;margin:auto"><hr>Designed by <a class='inline' href="#inline_content">Jett Wang</a> | Copyright © CSSA UIUC 2015 </div>
+            <div class="contained" style="color:#ccc;text-align:center;font-size:14px;margin:auto"><hr>Designed by <a class='inline' style="text-decoration:underline;color:inherit" href="#inline_content">Jett Wang</a> | Copyright © CSSA UIUC 2015 </div>
+     
             <div style='display:none'>
-                <div id='inline_content' style='padding:10px; background:#fff;'>
+                <div id='inline_content' style='padding:10px; background:#fff;text-align:center;'>
+                    <div><h5 style="font-family:inherit">Chief Developer</h5>Jett Wang</div>
+                    <div class="left" style="width:50%"><h5 style="font-family:inherit">Chief Manager</h5>Hong Cheng</div>
+                    <div class="right" style="width:50%"><h5 style="font-family:inherit">Co-Developer</h5>Tianyuan Zhang</div>
+                    <div style="font-size:13px">please contact lwang108@illinois.edu for website feedback, comments or suggestions.</div>
                 </div>
             </div>
         </div>
 
 
-
+               
 
         <script>
             document.write('<script src=js/vendor/' +
