@@ -27,38 +27,40 @@
 
 
     <div class="row">
-        <div class="contained"><div class="contained">
-            <h2 id="CNtext">明日之星</h2>
-            <p>明日之星是CSSA内部奖励制度的一部分。为了体现CSSA“给你温暖给你爱”的主题和鼓励嘉奖表现突出的成员，CSSA每个月由最初的部长提名，提名人参与演讲，到最终board投票选举，经过层层选拔，最终确定三名表现最佳成员。让我们一起来了解他们的故事，从他们的视角了解CSSA的精彩。</p>
-        </div></div>
+        
     </div>
 
-    <div class="row">
-        <div class="contained text">
-            <?php   $page_id = $_GET['page']; layout($page_id);
-            function layout($page_id) {
-                switch($page_id) {
-                    default:
-                    echo '<p class="red">The page was not found. Showing Home page instead</p>';
-                    case '':
-                    case '2015':
-                    include @ '2015.php';
-                    break;
-                    case '2014':
-                    include @ '2014.php';
-                    break;
+    <div class="row" style="background:transparent">
+        <div class="content">
+            <div class="contained"><div class="contained">
+                <h2 id="CNtext">明日之星</h2>
+                <p>明日之星是CSSA内部奖励制度的一部分。为了体现CSSA“给你温暖给你爱”的主题和鼓励嘉奖表现突出的成员，CSSA每个月由最初的部长提名，提名人参与演讲，到最终board投票选举，经过层层选拔，最终确定三名表现最佳成员。让我们一起来了解他们的故事，从他们的视角了解CSSA的精彩。</p>
+            </div></div>
+            <div>
+                <?php   $page_id = $_GET['page']; layout($page_id);
+                function layout($page_id) {
+                    switch($page_id) {
+                        default:
+                        echo '<p class="red">The page was not found. Showing Home page instead</p>';
+                        case '':
+                        case '2015':
+                        include @ '2015.php';
+                        break;
+                        case '2014':
+                        include @ '2014.php';
+                        break;
+                    }
                 }
-            }
-            ?>
-        </div>
+                ?>
+            </div>
 
-        <div class="side-nav">
-            <img id="deco" src="../assets/image/shared/icon.png"></img>
-            <li class="divider"></li>
-            <li class="<?php if($page_id == '2015'){ echo "active "; } ?>"><a href="star-members.php?page=2015">2015</a></li>
-            <li class="<?php if($page_id == '2014'){ echo "active "; } ?>"><a href="star-members.php?page=2014">2014</a></li>
+            <div class="side-nav">
+                <img id="deco" src="../assets/image/shared/icon.png"></img>
+                <li class="divider"></li>
+                <li class="<?php if($page_id == '2015'){ echo "active "; } ?>"><a href="star-members.php?page=2015">2015</a></li>
+                <li class="<?php if($page_id == '2014'){ echo "active "; } ?>"><a href="star-members.php?page=2014">2014</a></li>
+            </div>
         </div>
-
     </div>
 
 

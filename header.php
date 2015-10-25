@@ -1,6 +1,6 @@
 <nav>
     <div class="row">
-        <img src="./assets/icon.png" id="logo_img">
+        <img src=".\assets\image\shared\icon.png" id="logo_img">
         <div id='cssmenu'>
             <ul>
                 <li class="active"><a href='#'><span id='tab_home'></span></a></li>
@@ -31,13 +31,13 @@
                                 <li><a href='#'><span id='tab_dance'></span></a></li>
                             </ul>
                         </li>
-                        <li><a href='#'><span id='tab_star'></span></a>
+                        <li><a href='./members/star-members.php'><span id='tab_star'></span></a>
                         </ul>
                     </li>
-                    <li class='has-sub'><a href='./about/index.html'><span id='tab_ab'></span></a>
+                    <li class='has-sub'><a href='./about/index.php'><span id='tab_ab'></span></a>
                         <ul>
                             <li><a href='#'><span id='tab_board'></span></a></li>
-                            <li><a href='about/vision.html'><span id='tab_vision'></span></a></li>
+                            <li><a href='about/vision.php'><span id='tab_vision'></span></a></li>
                             <li><a href='#'><span id='tab_cont'></span></a></li>
                         </ul>
                     </li>

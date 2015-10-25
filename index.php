@@ -27,53 +27,6 @@
     </script>
     <?php include "./header.php"; ?>
 
-    <nav>
-        <div class="row">
-            <img src="./assets/image/shared/icon.png" id="logo_img">
-            <div id='cssmenu'>
-                <ul>
-                    <li class="active"><a href='#'><span id='tab_home'></a></li>
-                    <li><a href='#'><span id='tab_events'></a>
-                    </li>
-                    <li class='has-sub'><a><span id='tab_memb'></a>
-                        <ul>
-                            <li><a href='#'><span id='tab_board'></a></li>
-                            <li class='has-sub' ><a><span id='tab_div'></a>
-                                <ul>
-                                    <li><a href='#'><span id='tab_sa'></a></li>
-                                    <li><a href='#'><span id='tab_undergrad'></a></li>
-                                    <li><a href='#'><span id='tab_grad'></a></li>
-                                    <li><a href='#'><span id='tab_sr'></a></li>
-                                    <li><a href='#'><span id='tab_cs'></a></li>
-                                    <li><a href='#'><span id='tab_pr'></a></li>
-                                    <li><a href='#'><span id='tab_publi'></a></li>
-                                    <li><a href='#'><span id='tab_tre'></a></li>
-                                    <li><a href='#'><span id='tab_it'></a></li>
-                                    <li><a href='#'><span id='tab_hr'></a></li>
-                                </ul>
-                            </li>
-                            <li class='has-sub'><a><span id='tab_sub'></a>
-                                <ul>
-                                    <li><a href='#'><span id='tab_pho'></a></li>
-                                    <li><a href='#'><span id='tab_pp'></a></li>
-                                    <li><a href='#'><span id='tab_jf'></a></li>
-                                    <li><a href='#'><span id='tab_dance'></a></li>
-                                </ul>
-                            </li>
-                            <li><a href='#'><span id='tab_star'></a>
-                            </ul>
-                        </li>
-                        <li class='has-sub'><a href='./about/index.html'><span id='tab_ab'></a>
-                            <ul>
-                                <li><a href='about/vision.html'><span id='tab_vision'></a></li>
-                                <li><a href='#'><span id='tab_cont'></a></li>
-                            </ul>
-                        </li>
-                        <li class='last'><a href='http://bbs.cssa.uiuc.edu/index.php'><span id='tab_bbs'></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
 </head>
 
 <body>
@@ -81,21 +34,20 @@
         <div class="row"  id="cssared">
             <div class="orbit-container">
                 <ul class="orbit" data-orbit>
-                    <li><img src="./assets/image/home/orbit_1.jpg" alt="slide 1" /></li>
-                    <li><img src="./assets/image/home/orbit_2.jpg" alt="slide 2" /></li>
-                    <li><img src="./assets/image/home/orbit_3.jpg" alt="slide 3" /></li>
+                    <li><img src="./assets/image/home/orbit_1.jpg" alt="slide 1" /><h1 id="CNtext">中国学生学者<br>在香槟<br>温暖的归属</h1></li>
+                    <li><img src="./assets/image/home/orbit_2.jpg" alt="slide 2" /><h1 id="CNtext">全方位<br>提升能力<br>施展才华的舞台</h1></li>
+                    <li><img src="./assets/image/home/orbit_3.jpg" alt="slide 3" /><h1 id="CNtext">体验丰富<br>多彩的别样<br>大学生活</h1></li>
                 </ul>
             </div>
         </div>
 
         <div class="row">
-            <div class="contained">
-                <div class="contained text">
-                    <h1 style="text-align:center">WHO WE ARE</h1>
-                    <p>CSSA，全称Chinese Students and Scholars Association, 是在如今世界各地的高校中都不乏其身影的学生组织。UIUC CSSA是位于伊利诺伊州一个以UIUC华人学生学者为主体的，维护华人学生学者权益、为华人学生学者提供多种服务的非盈利性组织。</p>
+                <div class="contained text" id='flex'>
+                    <img src="./assets/image/home/logo_large.jpg" style="display:block;width:50%;max-width:40vh;margin:auto;"></img>
+                    <div style="margin:auto;"><p>CSSA，全称Chinese Students and Scholars Association, 是在如今世界各地的高校中都不乏其身影的学生组织。UIUC CSSA是位于伊利诺伊州一个以UIUC华人学生学者为主体的，维护华人学生学者权益、为华人学生学者提供多种服务的非盈利性组织。</p>
                     <p>全世界有数百个CSSA，每一个都仅仅诞生于三五个人的一腔热情，却在经历了时间的磨练后壮大成了浩浩荡荡的大家庭。在与社会各方打交道的过程中，CSSA越来越成熟，存在感也日渐增强。现在每当提到海外留学、工作，首先进入人们脑海的就是CSSA这个永远欢迎着中国同胞的热情团体。CSSA为初到他国的学生学者们铺好了前进的道路，送上了欢迎和鼓励；为在异国他乡奋斗了几年的人们提供了无条件的支持和无尽头的欢乐；为站在回国或继续留在他国发展路口的中国同胞们准备了丰富的资料和专业帮助。我们相信，无论是哪里的CSSA，无论是哪种形式的CSSA，在未来都会有更进一步的发展，变得更加贴心，更加热情，更加强大。</p>
+                    </div>
                 </div>
-            </div>
         </div>
 
         <div class="row contained" id="round" style="background:transparent">
