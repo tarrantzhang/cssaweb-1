@@ -447,9 +447,7 @@
 //modified code for slider by zuraiz
 //codepen.io/zuraizm/pen/vGDHI
 jQuery(document).ready(function(){
-    setInterval(function () {
         moveRight();
-    }, 3000);
   });
 
 	var slideCount = $('#slider ul li').length;
@@ -473,13 +471,22 @@ jQuery(document).ready(function(){
         });
     };
 
+	interval = 1000;
+	before = new Date();
     function moveRight() {
-        $('#slider ul').animate({
-            left: - slideWidth
-        }, 200, function () {
-            $('#slider ul li:first-child').appendTo('#slider ul');
-            $('#slider ul').css('left', '');
-        });
+    	now = new Date();
+   	var elapsedTime = (now.getTime() - before.getTime());
+
+   	if(elapsedTime > interval) {
+	        $('#slider ul').stop(true,true).animate({
+	            left: - slideWidth
+	        }, 200, function () {
+	            $('#slider ul li:first-child').appendTo('#slider ul');
+	            $('#slider ul').css('left', '');
+	        });
+	        before = now;
+        }
+        setTimeout(moveRight, interval);
     };
 
     $('a.control_prev').click(function () {
