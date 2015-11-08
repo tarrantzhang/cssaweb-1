@@ -52,7 +52,7 @@
 
         <div class="row contained" id="round" style="background:transparent">
             <div class="parleft">
-                <img src="./assets/image/home/tempround.png"></img>
+                <img src="./assets/image/home/illinoislogo.png"></img>
                 <div class="textbox"><p>丰富的社团和活动 给你更多元化的大学生活 无限的挑战和机会 让你跳出框架重新定义自我 在香槟的留学旅途 有cssa的温暖相伴 我们不孤独</p></div>
             </div>
             <div class="parmid">
